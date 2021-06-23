@@ -1,7 +1,7 @@
 name = "MyPackage2"
 uuid = "a83cd076-e915-4cb9-a715-08bbcfc3b500"
 authors = ["Tongyuan Corp"]
-version = "0.1.0"
+version = "1.0.0"
 
 [compat]
 julia = "1"
