@@ -1,9 +1,12 @@
 module MyPackage2
 
-# Write your package code here.
+export func
 
-export greet
+"""
+    func(x)
 
-greet() = println("Hello Julia!")
+Returns double the number `x` plus `1`.
+"""
+func(x) = 2x + 1
 
 end
