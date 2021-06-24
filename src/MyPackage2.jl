@@ -2,11 +2,21 @@ module MyPackage2
 
 export func
 
+#这种注释方式，推荐大家使用，支持在vscode中悬停查看函数帮助
 """
-    func(x)
+    add_func(x,y)
 
-Returns double the number `x` plus `1`.
+Returns `x` + `y`.
 """
-func(x) = 2x + 1
+add_func(x,y) = x + y
+
+"""
+    subtract_func(x,y)
+
+Returns `x` - `y`.
+"""
+subtract_func(x,y) = x - y
+
+include("math.jl")
 
 end
