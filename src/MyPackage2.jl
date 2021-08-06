@@ -1,6 +1,6 @@
 module MyPackage2
 
-export func
+export add_func, subtract_func
 
 #这种注释方式，推荐大家使用，支持在vscode中悬停查看函数帮助
 """
