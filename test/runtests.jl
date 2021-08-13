@@ -13,6 +13,6 @@ using Test
     @test_throws MethodError add_func(x, y)
 
     #测试错误情况
-    # @test subtract_func(x,y) == 0
+    #@test subtract_func(x,y) == 0
     
 end
